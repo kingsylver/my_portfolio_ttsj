@@ -1,0 +1,912 @@
+[{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "PDF",
+    "formatDescription": "PDF",
+    "mimeType": "application/pdf",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "GrayscaleAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 4,
+      "green": 4,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 46017.9,
+        "median": 49151.2,
+        "standardDeviation": 16525.4,
+        "kurtosis": -1.2024,
+        "skewness": -0.884815,
+        "entropy": 0.229352
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 3351.6,
+        "median": 0,
+        "standardDeviation": 12646.8,
+        "kurtosis": 14.2152,
+        "skewness": 3.90089,
+        "entropy": 0.127374
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60240.1,
+        "median": 65535,
+        "standardDeviation": 17818.3,
+        "kurtosis": 7.46908,
+        "skewness": -3.07474,
+        "entropy": 0.263344
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60240.1,
+        "median": 65535,
+        "standardDeviation": 17818.3,
+        "kurtosis": 7.46908,
+        "skewness": -3.07474,
+        "entropy": 0.263344
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60240.1,
+        "median": 65535,
+        "standardDeviation": 17818.3,
+        "kurtosis": 7.46908,
+        "skewness": -3.07474,
+        "entropy": 0.263344
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 0,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "94b13be711c9ae8e7f4b91a33f9337006dc6ef5a23e1e2a385cbd81462f76a10"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "50753B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "3277280B",
+    "userTime": "0.210u",
+    "elapsedTime": "0:01.147",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+},
+{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "PDF",
+    "formatDescription": "PDF",
+    "mimeType": "application/pdf",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "PaletteAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 8,
+      "green": 8,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 46474.2,
+        "median": 49151.2,
+        "standardDeviation": 15332.4,
+        "kurtosis": -1.1353,
+        "skewness": -0.921164,
+        "entropy": 0.162784
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 2903.27,
+        "median": 0,
+        "standardDeviation": 11778.8,
+        "kurtosis": 17.065,
+        "skewness": 4.23117,
+        "entropy": 0.108652
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60978.8,
+        "median": 65535,
+        "standardDeviation": 16568.2,
+        "kurtosis": 9.46954,
+        "skewness": -3.38007,
+        "entropy": 0.193955
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60978.8,
+        "median": 65535,
+        "standardDeviation": 16568.2,
+        "kurtosis": 9.46954,
+        "skewness": -3.38007,
+        "entropy": 0.193955
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 61035.8,
+        "median": 65535,
+        "standardDeviation": 16414.4,
+        "kurtosis": 9.67601,
+        "skewness": -3.40634,
+        "entropy": 0.154574
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 1,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "144f46a532bcbbe0c12553aca7c59e38de5d7a4cfeb3624501c71b36786b6587"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "51657B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "1.89814MB",
+    "userTime": "0.320u",
+    "elapsedTime": "0:01.255",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+},
+{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "PDF",
+    "formatDescription": "PDF",
+    "mimeType": "application/pdf",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "GrayscaleAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 8,
+      "green": 8,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 46021.1,
+        "median": 49151.2,
+        "standardDeviation": 16475.7,
+        "kurtosis": -1.20056,
+        "skewness": -0.885119,
+        "entropy": 0.189351
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 3339.59,
+        "median": 0,
+        "standardDeviation": 12539.2,
+        "kurtosis": 14.1205,
+        "skewness": 3.88354,
+        "entropy": 0.125587
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60248.3,
+        "median": 65535,
+        "standardDeviation": 17787.9,
+        "kurtosis": 7.48998,
+        "skewness": -3.07709,
+        "entropy": 0.210606
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60248.3,
+        "median": 65535,
+        "standardDeviation": 17787.9,
+        "kurtosis": 7.48998,
+        "skewness": -3.07709,
+        "entropy": 0.210606
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60248.3,
+        "median": 65535,
+        "standardDeviation": 17787.9,
+        "kurtosis": 7.48998,
+        "skewness": -3.07709,
+        "entropy": 0.210606
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 2,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "ffaaab49d760d8d369688cf5e8306874940245f8e0dd80293be9db9aa047a076"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "53829B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "1.05011MB",
+    "userTime": "0.530u",
+    "elapsedTime": "0:01.461",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+},
+{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "PDF",
+    "formatDescription": "PDF",
+    "mimeType": "application/pdf",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "GrayscaleAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 4,
+      "green": 4,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 46228.5,
+        "median": 49151.2,
+        "standardDeviation": 15988.9,
+        "kurtosis": -1.17245,
+        "skewness": -0.90176,
+        "entropy": 0.21816
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 3122.64,
+        "median": 0,
+        "standardDeviation": 12174.4,
+        "kurtosis": 15.5113,
+        "skewness": 4.05015,
+        "entropy": 0.121903
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60597.1,
+        "median": 65535,
+        "standardDeviation": 17260.5,
+        "kurtosis": 8.35755,
+        "skewness": -3.21599,
+        "entropy": 0.250245
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60597.1,
+        "median": 65535,
+        "standardDeviation": 17260.5,
+        "kurtosis": 8.35755,
+        "skewness": -3.21599,
+        "entropy": 0.250245
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 60597.1,
+        "median": 65535,
+        "standardDeviation": 17260.5,
+        "kurtosis": 8.35755,
+        "skewness": -3.21599,
+        "entropy": 0.250245
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 3,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "ae8b6e0e83a3aa24fe83e5ac338a8d07fb5557698a7c8be9c7a5a6cff6c2ba05"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "52505B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "832545B",
+    "userTime": "0.650u",
+    "elapsedTime": "0:01.582",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+},
+{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "PDF",
+    "formatDescription": "PDF",
+    "mimeType": "application/pdf",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "GrayscaleAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 8,
+      "green": 8,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 46768.8,
+        "median": 49151.2,
+        "standardDeviation": 14414.1,
+        "kurtosis": -1.08809,
+        "skewness": -0.943242,
+        "entropy": 0.173364
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 2651.46,
+        "median": 0,
+        "standardDeviation": 11258.7,
+        "kurtosis": 19.5257,
+        "skewness": 4.49162,
+        "entropy": 0.105968
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 61474.6,
+        "median": 65535,
+        "standardDeviation": 15465.9,
+        "kurtosis": 11.2296,
+        "skewness": -3.61299,
+        "entropy": 0.19583
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 61474.6,
+        "median": 65535,
+        "standardDeviation": 15465.9,
+        "kurtosis": 11.2296,
+        "skewness": -3.61299,
+        "entropy": 0.19583
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 61474.6,
+        "median": 65535,
+        "standardDeviation": 15465.9,
+        "kurtosis": 11.2296,
+        "skewness": -3.61299,
+        "entropy": 0.19583
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 4,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "58ab4d8c33956b3007ee1e45532d42058187e93a5e47ea785b67efc9a12f3729"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "47944B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "647541B",
+    "userTime": "0.830u",
+    "elapsedTime": "0:01.748",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+},
+{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/CV_Tchatchou_Silvere.pdf",
+    "baseName": "CV_Tchatchou_Silvere.pdf",
+    "format": "json",
+    "formatDescription": "json",
+    "mimeType": "application/json",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 72,
+      "y": 72
+    },
+    "printSize": {
+      "x": 8.5,
+      "y": 11
+    },
+    "units": "Undefined",
+    "type": "GrayscaleAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 4,
+      "green": 4,
+      "blue": 8
+    },
+    "pixels": 1938816,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 48792.6,
+        "median": 49151.2,
+        "standardDeviation": 5708.13,
+        "kurtosis": -0.740225,
+        "skewness": -1.12121,
+        "entropy": 0.0434735
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 0,
+        "max": 65535,
+        "mean": 367.132,
+        "median": 0,
+        "standardDeviation": 4247.89,
+        "kurtosis": 171.392,
+        "skewness": 12.7922,
+        "entropy": 0.0224056
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 64934.5,
+        "median": 65535,
+        "standardDeviation": 6194.87,
+        "kurtosis": 104.188,
+        "skewness": -10.2842,
+        "entropy": 0.0504961
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 64934.5,
+        "median": 65535,
+        "standardDeviation": 6194.87,
+        "kurtosis": 104.188,
+        "skewness": -10.2842,
+        "entropy": 0.0504961
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 64934.5,
+        "median": 65535,
+        "standardDeviation": 6194.87,
+        "kurtosis": 104.188,
+        "skewness": -10.2842,
+        "entropy": 0.0504961
+      }
+    },
+    "alpha": "#FFFFFFFFFFFF0000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 612,
+      "height": 792,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "scene": 5,
+    "scenes": 6,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2021-03-12T14:08:28+00:00",
+      "date:modify": "2021-03-12T14:08:28+00:00",
+      "pdf:HiResBoundingBox": "612x792+0+0",
+      "pdf:Version": "PDF-1.5",
+      "signature": "606b5165504ec2c4a5bc4219d9bce84611f2347c0dcc071185d783124c375363"
+    },
+    "profiles": {
+      "icc": {
+        "length": 2576
+      }
+    },
+    "tainted": false,
+    "filesize": "12745B",
+    "numberPixels": "484704",
+    "pixelsPerSecond": "549586B",
+    "userTime": "0.960u",
+    "elapsedTime": "0:01.881",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+}]

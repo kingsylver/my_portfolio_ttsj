@@ -1,31 +1,72 @@
 {
-  "email": "rnldhv91@gmail.com",
-  "location": "Durbanville, Cape Town",
-  "name": "Ronald Hove",
-  "phone": "",
+  "email": "kingsylver2009@gmail.com",
+  "location": "Douala, Cameroun",
+  "name": "Tchatchou T Silvere Juste",
+  "phone": "(00237) 690270596/683485972",
   "avatar": "assets/media/images/pro_offerzen.jpg",
   "education": [
     {
-      "title": "Bachelor of Science (BSc) in Computer Science and Information Systems",
-      "meta": "University of the Western Cape,  Jan 2014 – Nov 2018"
+      "title": "Master Informatique, Réseau & Système / Développeur Fullstack JAVA",
+      "meta": "Limoge Afrique Centrale • Douala, Cameroun (Septembre 2012 – Novembre 2014)"
+    },
+    {
+      "title": "Technicien Supérieur en Electrotechnique",
+      "meta": "Institut Universitaire du Golfe • Douala, Cameroun (Septembre 2008 – Novembre 2010)"
+    },
+    {
+      "title": "Bachelor Physique Appliquée",
+      "meta": "Université de Douala • Douala, Cameroun (Septembre 2008 – Novembre 2010)"
     }
   ],
-  "about": "I consider myself a value adder. I resolute to being a key asset of objective teams while seeking value from colleagues to add to my strengths. I love computer science and information technology.\n\nI have acquired experience building industry standard, production ready applications from working as a full time software developer and being a full time technology hobbyist.",
+  "about": ["7 années d'expérience professionnelle comme informaticien Réseau et Systeme. Avec 4 sur les systèmes d’exploitation Windows Server 2012/2008 et Linux Server & Desktop (CentOS & Ubuntu)",
+            "former à la Certifcation CCNA et CCNP Switch & Router.Expérimenté dans la mise en place des solutions complexes en réseau, mon savoir faire nous a amené à experimenter un grand nombre de technologie réseau et Systeme",
+            "tel que la virtualisation et la gestion d'infrastructure réseau. \nPassionnée et cultivée, nous sommes toujours à la recheche d'une amélioration continue. Le contexte dans lequel nous évoluons et travaillons nous a également amené à étudier et déployer des solutions lié au système d'information:",
+            "\n• Installer, configurer et administrer l’ERP SAP (SAP Basis)\n• Concevoir, developper et intégrer des solutions ERP (Odoo ERP: Python-XML-CSS-JS).\n• Concevoir et developper des Tableaux de bord d'analyse avec Power BI desktop.\nProfessionnelle aguérir en informatique d'entreprise, appréciée pour mon aisance à travailler dans des millieux administratifs exigents où le rythme est soutenu."],
   "socials": [
     {
-      "name": "rnldhv91@gmail.com",
-      "link": "mailto:rnldhv91@gmail.com",
+      "name": "kingsylver2009@gmail.com",
+      "link": "mailto:kingsylver2009@gmail.com",
       "icon": "fa fa-envelope"
     },
     {
       "name": "Github",
-      "link": "https://github.com/ronald-hove",
+      "link": "https://github.com/kingsylver",
       "icon": "fab fa-github"
     },
     {
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/ronald-hove/",
+      "link": "https://www.linkedin.com/in/silvere-juste-tchatchou-tentchou-90251831/",
       "icon": "fab fa-linkedin"
     }
-  ]
+  ],
+  "formation":[
+    {
+    "title":"CCNA & CCNP (Switch & Router) -- ALPHORM • Online",
+    "Date": "Février 2018 - Novembre 2020"
+  },
+  {
+    "title": "LPIC-1 (Linux niveau 1) -- ALPHORM • Online",
+    "Date": "Septembre 2019 - Août 2020"
+  },
+  {
+    "title": "Odoo ERP V 11 -- Udemy • Online",
+    "Date": "Novembre 2018 - Mars 2019"
+  },
+  {
+    "title": "TIL V3 2011 -- ALPHORM • Online",
+    "Date": "Mars 2018 - Novembre 2018"
+  },
+  {
+    "title": "PYTHON 3.4 -- Openclassroom • Online",
+    "Date": "Octobre 2017 - Septembre 2020"
+  },
+  {
+    "title": "Talend Open Studio -- ALPHORM • Online",
+    "Date": "Mars 2017 - Décembre 2017"
+  },
+  {
+    "title": "Audit Interne et Management du risque -- SGS • Douala,Cameroun",
+    "Date": "Janvier 2017 - Février 2017"
+  }
+]
 }

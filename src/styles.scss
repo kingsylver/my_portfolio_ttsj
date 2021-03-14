@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.min.css";
+
 body {
-  background-color: whitesmoke !important;
+  //background-color: rgb(102, 3, 3) !important;
+  background-image: url("assets/media/images/img_bck.jpg") !important;
+  background-repeat: no-repeat;background-attachment: fixed;
+  background-position: center;background-size: 100% 100%;
+}
+.rh-profile-img{
+  background-color: rgb(32, 5, 5) !important;
 }
 
 h5 {
@@ -9,8 +17,8 @@ h5 {
 }
 
 .rh-profile-img {
-  width: 66px;
-  border-radius: 50%;
+  width: 150px;
+  //border-radius: 50%;
 }
 
 .rh-preview-image {
@@ -62,8 +70,14 @@ h5 {
 
 @media(max-width: 768px) {
   .rh-profile-img {
-    width: 36%;
+    width: 50%;
     margin-bottom: 10px;
   }
 
 }
+
+.highlight {
+  background-color: violet;
+  font-weight: bold;
+}
+

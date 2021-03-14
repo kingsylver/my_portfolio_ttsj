@@ -1,22 +1,28 @@
 import { DataApiService } from './../../services/http/data-api.service';
 import { Component, OnInit, HostListener } from '@angular/core';
+import { throwError } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent implements OnInit {
 
   skills;
   featuredProjects;
   workExperience;
   profile;
+  results = [];
 
+  public Search: string = null;
   showMobileImages = false;
 
   constructor(
-    public dataApi: DataApiService
+    public dataApi: DataApiService,
+    private router:Router
   ) { }
 
   @HostListener('window:resize', ['$event'])
@@ -35,7 +41,10 @@ export class HomeComponent implements OnInit {
     this.checkWindowSize();
 
 
-    this.skills = await this.dataApi.getTopSkills();
+    this.skills = await this.dataApi.getTopSkills().then((data)=>{console.log(data); return data;}).catch((error) => {
+      const errorSub = throwError (error);
+      errorSub.subscribe();
+     });
     console.log('SKILLS', this.skills);
 
     this.featuredProjects = await this.dataApi.getFeaturedProjects();
@@ -60,9 +69,16 @@ export class HomeComponent implements OnInit {
     const byteArray = new Uint8Array(byteNumbers);
     const file = new Blob([byteArray], { type: 'application/pdf;base64' });
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(file);
+    a.href = URL.createObjectURL(pdf);
     a.setAttribute('download', `${this.profile.name} CV.pdf`.replace(/\s/g, ''));
     a.click();
   }
 
+  downloadCv(){
+      this.router.navigateByUrl("/CV")
+  }
+
+  public OnSearched(searchTerm: string) {
+    this.Search = searchTerm;
+  }
 }

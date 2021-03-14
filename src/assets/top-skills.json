@@ -1,13 +1,60 @@
 {
   "top_skills": [
-    "Ionic",
-    "Angular",
-    "NodeJs",
-    "Git",
-    "Python",
-    "JavaScript",
-    "Express",
-    "Android",
-    "MongoDB"
+    {
+      "cat":"Développement",
+      "skill":[
+        {"nom":"JAVA EE","star":3},
+        {"nom":"SPRING Boot","star":3},
+        {"nom":"SPRING MVC","star":3},
+        {"nom":"JPA","star":3},
+        {"nom":"MAVEN","star":3},
+        {"nom":"Angular","star":2},
+        {"nom":"HTML5","star":3},
+        {"nom":"Python","star":3},
+        {"nom":"Django","star":3},
+        {"nom":"JavaScript","star":3},
+        {"nom":"Bootstrap","star":2},
+        {"nom":"Reactjs","star":1},
+        {"nom":"CSS3","star":3}
+        ]
+      },
+      {
+        "cat":"Base de Données",
+        "skill":[
+          {"nom":"SQL SERVER","star":3},
+          {"nom":"PostgreSQL","star":3},
+          {"nom":"MYSQL","star":4},
+          {"nom":"MongoDB","star":2}
+        ]
+      },
+      {
+        "cat":"Système",
+        "skill":[
+          {"nom":"Apache","star":2},
+          {"nom":"Nginx","star":2},
+          {"nom":"SCRUM","star":2},
+          {"nom":"Docker","star":3},
+          {"nom":"HYPER-V","star":2},
+          {"nom":"Linux","star":2},
+          {"nom":"Window Server","star":2},
+          {"nom":"Git","star":4}
+        ]
+      },
+      {
+        "cat":"BI",
+        "skill":[
+          {"nom":"Talend ETL","star":2},
+          {"nom":"Power BI","star":2},
+          {"nom":"SSIS-SSAS-SSRS","star":2}
+        ]
+
+      },
+      {
+        "cat":"Equipements Réseau",
+        "skill":[
+          {"nom":"Cisco","star":3},
+          {"nom":"Mikrotik","star":3}
+        ]
+      }
   ]
 }

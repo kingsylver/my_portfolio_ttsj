@@ -1,58 +1,125 @@
 {
   "work": [
     {
-      "date": "September 2018 - Present",
-      "title": "Software Developer at Lava Lamp Lab",
-      "description": "Conduct Work in developing cross-platform mobile applications (iOS and Android) as well as Backend applications. \n\nWe mainly develop using Agile over two-week sprints.",
+      "date": "Septembre 2020 - Present",
+      "title": "Freelance & Développeur et Système",
+      "description":["Nous avons installé et configuré au seins de l'entreprise <b> AJC Graphic</b>",
+                    " un ERP(Enterprise Resource Planning) ou PGI(Progiciel de Gestion Intégré) Open-Source en mode Saas. Cet ERP est Hébergé dans un Serveur Virtuel Privé(VPS) en Allemagne. Les modules configurés et déployés sont: \n   • La Configuration de la Comptabilité SYSHOADA\n   • La Configuration du Module vente et Achat\n   • L'envoi des SMS Clients"],
       "stack": [
-        "Ionic",
-        "Angular",
-        "Node.js",
-        "npm",
-        "Git",
-        "Bitbucket",
-        "GitHub",
-        "Agile",
-        "Laravel",
-        "Express.js",
-        "Azure",
-        "Cosmos DB",
-        "JavaScript",
-        "TypeScript"
+          {"nom":"Ubuntu Server","star":4},
+          {"nom":"Python","star":4},
+          {"nom":"XML","star":4},
+          {"nom":"Bootstrap 4","star":3},
+          {"nom":"Git","star":4},
+          {"nom":"SCSS","star":3},
+          {"nom":"JavaScript","star":3},
+          {"nom":"Docker","star":3},
+          {"nom":"NGINX","star":4},
+          {"nom":"Let's Encrypt","star":3},
+          {"nom":"Odoo ERP","star":4},
+          {"nom":"SOAP-SMS","star":4}
+
       ]
     },
     {
-      "date": "September 2017 - September 2018",
-      "title": "Technical Intern at WC Colab for eInclusion and Social Innovation | Core Team",
-      "description": "I worked in a team of students focussing on projects centred around applications development, robotics, machine learning and designing courses to teach other students about these applications of technology.",
+      "date": "Juillet 2017 - Present",
+      "title": "Freelance & Développeur et Système",
+      "description":["Nous avons installé et configuré au seins de l'entreprise <b> Vitaliac Santé</b>",
+              " un ERP(Enterprise Resource Planning) ou PGI(Progiciel de Gestion Intégré) Open-Source en mode Saas. Cet ERP est Hébergé dans un Serveur Virtuel Privé(VPS) en Allemagne. Les modules configurés et déployés sont: \n   • Développeur du module Médical, pour la gestion de la clinique.\n   • La Configuration de la Comptabilité SYSHOADA\n   • La Configuration du Module vente et Achat\n   • L'envoi des SMS Patients"],
       "stack": [
-        "Python",
-        "Linux",
-        "Angular",
-        "Ionic"
+        {"nom":"Ubuntu Server","star":4},
+        {"nom":"Postgresql","star":3},
+        {"nom":"Python","star":4},
+        {"nom":"XML","star":4},
+        {"nom":"Bootstrap 4","star":3},
+        {"nom":"Git","star":4},
+        {"nom":"SCSS","star":3},
+        {"nom":"JavaScript","star":3},
+        {"nom":"Docker","star":3},
+        {"nom":"NGINX","star":4},
+        {"nom":"Let's Encrypt","star":3},
+        {"nom":"Odoo ERP","star":4},
+        {"nom":"SOAP-SMS","star":4}
+
+    ]
+    },
+    {
+      "date": "Janvier 2016 - Septembre 2020",
+      "title": "Responsable SAP BASIS",
+      "description": "Nous avons été responsable de l'Administration de l'ERP SAP, nous avons travailler sur les instances (DEV-QAS-PRD). Les modules déployés étaient FICO, SD, MM, PM",
+      "stack": [
+          {"nom":"MS SQL Server","star":3},
+          {"nom":"Server HP","star":3},
+          {"nom":"Install SAP","star":3},
+          {"nom":"Set up SAP","star":3},
+          {"nom":"ABAP","star":2},
+          {"nom":"Transactions SAP","star":3},
+          {"nom":"Mandant/Client","star":3},
+          {"nom":"BACKUP/RESTOR","star":4}
       ]
     },
     {
-      "date": "January 2017 - present",
-      "title": "Freelance Software Developer",
-      "description": "I take on freelance contracts to build awesome looking web and mobile apps for clients in Cape Town and Around South Africa.",
+      "date": "Mars 2014 - Septembre 2018",
+      "title": "Responsable Business Intelligent",
+      "description": "Pour permettre à l'entreprise <b>HYSACAM</b> d'analyser les données de l'ERP SAP, afin de prendre des décisions strategiques, nous avons mis sur pieds une architecture Business Intéligent construit sur Microsoft",
       "stack": [
-        "Angular",
-        "PHP",
-        "Python",
-        "RESTful API Design",
-        "MongoDB",
-        "Firebase",
-        "MySQL",
-        "Node.js",
-        "npm",
-        "Ionic",
-        "Database Design",
-        "Amazon EC2",
-        "Postman",
-        "Linux"
+          {"nom":"Talend Open-Studio","star":3},
+          {"nom":"DATA WAREHOUSE ","star":3},
+          {"nom":"SSIS","star":3},
+          {"nom":"SSAS","star":3},
+          {"nom":"MS SQL Server","star":3},
+          {"nom":"POWER BI","star":3},
+          {"nom":"CUBE OLAP","star":3},
+          {"nom":"EXCEL POWER QUERY","star":3},
+          {"nom":"J2EE SPRING Boot","star":3},
+          {"nom":"SSRS","star":3}
+      ]
+    },
+    {
+      "date": "Mars 2016 - Septembre 2018",
+      "title": "Responsable Réseau et Système Informatique",
+      "description": ["Nous avons construit une architecture complexe à 4 couches suivant les recommandation de Cisco",
+                      "puis nous avons sécurisé et administré le réseau de l'entreprise <b>HYSACAM</b>. Pour permettre un travail a distance",
+                      "nous avons installé et configuré deux serveurs VPN sur deux liaisons internet distinct. La plupart des services ont été déployés sur des serveurs Virtual construit sur HYPER-V"],
+      "stack": [
+          {"nom":"Windows Server 2012/2008","star":3},
+          {"nom":"HYPER-V","star":3},
+          {"nom":"Ubuntu Server","star":3},
+          {"nom":"CentOS Server","star":3},
+          {"nom":"Zimbra 8","star":3},
+          {"nom":"Nagios","star":3},
+          {"nom":"GLPI","star":3},
+          {"nom":"Couche Access","star":3},
+          {"nom":"Couche Distribution","star":2},
+          {"nom":"Couche Core","star":4},
+          {"nom":"Ferme Serveurs","star":4},
+          {"nom":"VLAN","star":4},
+          {"nom":"DMZ","star":4},
+          {"nom":"Switch Cisco","star":3},
+          {"nom":"Routeur Mikrotik","star":3},
+          {"nom":"ASA 5510","star":3},
+          {"nom":"Rip V2","star":3},
+          {"nom":"ACTIVE DIRECTORY","star":3},
+          {"nom":"VPN","star":4}
+      ]
+    },
+    {
+      "date": "Octobre 2014 - Mars 2016",
+      "title": "Developpeur en Equipe, puis administrateur Site Web",
+      "description": "Nous avons développer en équipe le site Web de l'entreprise <b>HYSACAM</b> et appliqué les mesures de sécurité",
+      "stack": [
+          {"nom":"Worpress","star":3},
+          {"nom":"Drupal","star":2},
+          {"nom":"Mysql","star":4},
+          {"nom":"HTML5","star":4},
+          {"nom":"CSS","star":4},
+          {"nom":"CPANEL","star":3},
+          {"nom":"JavaScript","star":3},
+          {"nom":"POSTFIX","star":3},
+          {"nom":"DKIM & SPF","star":3},
+          {"nom":"Let's Encrypt","star":3},
+          {"nom":"Google Analytics","star":4}
       ]
     }
-
   ]
 }

@@ -1,25 +1,28 @@
 <div class="rh-bg">
+  <app-cv-nav-bar (searched)="OnSearched($event)"></app-cv-nav-bar>
   <div class="container mb-4">
     <div class="row">
       <div class="col-lg-4 ">
-        <div class="sticky-top">
+        <div class="position-fixed" style="width: 300px;">
           <div class="row mt-3 ">
             <div class="col-lg-12">
               <div class="card rh-card">
                 <div class="card-body">
-                  <h5> Personal Information</h5>
+                  <!-- <div class="col-lg-3 ml-10"> -->
+                  <div class="mx-auto" style="width: 150px;">
+                    <img [src]="profile?.avatar" class="rh-profile-img" alt="...">
+                  </div>
                   <hr class="m-0 mb-3">
                   <div class="row">
-                    <div class="col-lg-3">
-                      <img [src]="profile?.avatar" class="rh-profile-img" alt="...">
-                    </div>
-                    <div class="col-lg-9 my-auto rh-profile-info">
+                    <div class="mx-auto" style="width: 250px;">
                       <h5 >{{profile?.name}}</h5>
                       <p class="m-0">{{profile?.location}} </p>
+                      <p class="m-0"><small><b>Tél : </b>{{profile?.phone}}</small></p>
                       <ng-container *ngFor="let social of profile?.socials">
                         <a  [href]="social?.link" ><span class="mr-2"><i [ngClass]="social?.icon" aria-hidden="true"></i></span>{{social?.name}}</a><br>
                       </ng-container>
-                      <button class="btn btn-primary mt-1" (click)="downloadResume()">Resume<span class="ml-2"><i class="fas fa-cloud-download-alt"></i></span></button>
+                      <!-- <button class="btn btn-primary mt-1" (click)="downloadResume()">Resume<span class="ml-2"><i class="fas fa-cloud-download-alt"></i></span></button> -->
+                      <button class="btn btn-primary mt-1" (click)="downloadCv()">Resume<span class="ml-2"><i class="fas fa-cloud-download-alt"></i></span></button>
                     </div>
                   </div>
                 </div>
@@ -31,11 +34,13 @@
             <div class="col-lg-12">
               <div class="card rh-card">
                 <div class="card-body">
-                  <h5>About Me</h5>
-                  <hr class="m-0 mb-3">
+                  <!-- <h5>About Me</h5>
+                  <hr class="m-0 mb-3">-->
                   <div class="row">
-                    <div class="col-lg-12">
-                      <p style="white-space: pre-wrap;" class="card-text" [innerHTML]="profile?.about"></p>
+                    <div class="social-part" style="padding-left: 30px;">
+                      <span class="ml-5"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                      <span class="ml-5"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                      <span class="ml-5"><i class="fa fa-instagram" aria-hidden="true"></i></span>
                     </div>
                   </div>
                 </div>
@@ -50,15 +55,12 @@
           <div class="col-lg-12">
             <div class="card rh-card">
               <div class="card-body">
-                <h5>Education</h5>
+                <h5><b>About Me</b></h5>
                 <hr class="m-0 mb-3">
                 <div class="row">
                   <div class="col-lg-12">
-                    <ng-container *ngFor="let school of profile?.education">
-                      <h5>{{school?.title}}</h5>
-                      <p><small>{{school?.meta}}</small></p>
-                    </ng-container>
-                  </div>
+                      <p style="white-space: pre-wrap;" class="card-text" [innerHTML]="profile?.about"></p>
+                    </div>
                 </div>
               </div>
             </div>
@@ -69,24 +71,7 @@
           <div class="col-lg-12">
             <div class="card rh-card">
               <div class="card-body">
-                <h5> My Top Skills</h5>
-                <hr class="m-0 mb-3">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <a  class="mr-1 rh-skill" *ngFor="let skill of skills?.top_skills" >{{skill}}</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="row mt-3">
-          <div class="col-lg-12">
-            <div class="card rh-card">
-              <div class="card-body">
-                <h5> Work History</h5>
+                <h5><b>Work History</b></h5>
                 <hr class="m-0 mb-3">
                 <div class="row">
                   <div class="col-lg-12">
@@ -94,7 +79,11 @@
                       <p><small>{{work?.date}}</small></p>
                       <h5>{{work?.title}}</h5>
                       <p style="white-space: pre-wrap;" class="card-text" [innerHTML]="work?.description"></p>
-                      <a  class="mr-1 rh-skill" *ngFor="let skill of work?.stack" >{{skill}}</a>
+                        <a  class="mr-1 rh-skill" *ngFor="let skill of work?.stack">{{skill.nom}}</a>
+                        <!--span class="fa fa-star" [ngStyle]="{'color':skill.star>0 ? 'green':''}" ></span>
+                        <span class="fa fa-star" [ngStyle]="{'color':skill.star>=2 ? 'green':''}" ></span>
+                        <span class="fa fa-star" [ngStyle]="{'color':skill.star>=3 ? 'green':''}"></span>
+                        <span class="fa fa-star" [ngStyle]="{'color':skill.star>=4 ? 'green':''}"></span-->
                       <hr class="m-0 mt-3">
                     </div>
                   </div>
@@ -108,7 +97,47 @@
           <div class="col-lg-12">
             <div class="card rh-card">
               <div class="card-body">
-                <h5> Featured Projects | Work</h5>
+                <h5><b>Education</b></h5>
+                <hr class="m-0 mb-3">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ng-container *ngFor="let school of profile?.education">
+                      <h5>{{school?.title}}</h5>
+                      <p><small>{{school?.meta}}</small></p>
+                      <br/>
+                    </ng-container>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="card rh-card">
+              <div class="card-body">
+                <h5><b>Formation</b></h5>
+                <hr class="m-0 mb-3">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ng-container *ngFor="let format of profile?.formation">
+                      <ul>
+                        <li>{{format?.title}} (<span class="font-italic"><small>{{format?.Date}}</small></span>)</li>
+                      </ul>
+                    </ng-container>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="card rh-card">
+              <div class="card-body">
+                <h5><b>Featured Projects | Work</b></h5>
                 <hr class="m-0 mb-3">
                 <div class="row">
                   <div class="col-lg-12">
@@ -136,6 +165,33 @@
             </div>
           </div>
         </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="card rh-card">
+              <div class="card-body">
+                <h5><b> Mes Compétences </b></h5>
+                <hr class="m-0 mb-3">
+                <div *ngFor="let categ of skills?.top_skills">
+                  <br/>
+                <h6>{{categ.cat}}</h6>
+                <hr class="m-0 mb-3">
+                <div class="row">
+                  <div class="col-sm-4" *ngFor="let skil of categ.skill" >
+                    <a  class="mr-1 rh-skill" >{{skil.nom}}</a>
+                    <span class="fa fa-star" [ngStyle]="{'color':skil.star>0 ? 'green':''}" ></span>
+                    <span class="fa fa-star" [ngStyle]="{'color':skil.star>=2 ? 'green':''}" ></span>
+                    <span class="fa fa-star" [ngStyle]="{'color':skil.star>=3 ? 'green':''}"></span>
+                    <span class="fa fa-star" [ngStyle]="{'color':skil.star>=4 ? 'green':''}"></span>
+                    <span class="fa fa-star" [ngStyle]="{'color':skil.star>=5 ? 'green':''}" ></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
