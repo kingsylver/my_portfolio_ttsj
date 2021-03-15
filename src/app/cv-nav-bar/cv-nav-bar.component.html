@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm   navbar-light bg-light sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon">Voila</span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -11,43 +11,24 @@
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
       </li>
-      <!--li class="nav-item dropdown dmenu">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Our Service
-      </a>
-      <div class="dropdown-menu sm-menu">
-        <a class="dropdown-item" href="#">service2</a>
-        <a class="dropdown-item" href="#">service 2</a>
-        <a class="dropdown-item" href="#">service 3</a>
-      </div>
-    </li-->
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact Us</a>
+      <a class="nav-link" href="http://ttsj-consulting.com">Contact Us</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Call</a>
-    </li>
-     <!-- <li class="nav-item dropdown dmenu">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Dropdown link
-      </a>
-      <div class="dropdown-menu sm-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
-        <a class="dropdown-item" href="#">Link 4</a>
-        <a class="dropdown-item" href="#">Link 5</a>
-        <a class="dropdown-item" href="#">Link 6</a>
-      </div>
-    </li> -->
-    </ul>
-    <input matInput (input)="onSearch($event.target.value)" />
 
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" ngModel name="keyword">
-      <button class="btn btn-outline-info my-2 my-sm-0" >
-        <span class="fa fa-search"></span>
-      </button>
-    </form> -->
+    </ul>
+
+    <div class="nav-item dropdown dmenu" [hidden]="isHide">
+      <a class="nav-link dropdown-toggle" style="margin-right: 90px;" href="#" id="navbardrop" data-toggle="dropdown">
+        PLAN
+      </a>
+      <div class="dropdown-menu sm-menu">
+        <a class="dropdown-item" href="#aboutMe">About Me</a>
+        <a class="dropdown-item" href="#experience">Experiences</a>
+        <a class="dropdown-item" href="#education">Education</a>
+        <a class="dropdown-item" href="#formation">Formation</a>
+        <a class="dropdown-item" href="#projects">Mes Project Récents</a>
+        <a class="dropdown-item" href="#skillss">Compétences</a>
+      </div>
+    </div>
   </div>
 </nav>

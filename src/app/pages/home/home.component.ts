@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
 
   public Search: string = null;
   showMobileImages = false;
+  page:string = null;
 
   constructor(
     public dataApi: DataApiService,
