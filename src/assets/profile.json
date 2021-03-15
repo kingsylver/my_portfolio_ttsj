@@ -18,10 +18,9 @@
       "meta": "Université de Douala • Douala, Cameroun (Septembre 2008 – Novembre 2010)"
     }
   ],
-  "about": ["7 années d'expérience professionnelle comme informaticien Réseau et Systeme. Avec 4 sur les systèmes d’exploitation Windows Server 2012/2008 et Linux Server & Desktop (CentOS & Ubuntu)",
-            "former à la Certifcation CCNA et CCNP Switch & Router.Expérimenté dans la mise en place des solutions complexes en réseau, mon savoir faire nous a amené à experimenter un grand nombre de technologie réseau et Systeme",
-            "tel que la virtualisation et la gestion d'infrastructure réseau. \nPassionnée et cultivée, nous sommes toujours à la recheche d'une amélioration continue. Le contexte dans lequel nous évoluons et travaillons nous a également amené à étudier et déployer des solutions lié au système d'information:",
-            "\n• Installer, configurer et administrer l’ERP SAP (SAP Basis)\n• Concevoir, developper et intégrer des solutions ERP (Odoo ERP: Python-XML-CSS-JS).\n• Concevoir et developper des Tableaux de bord d'analyse avec Power BI desktop.\nProfessionnelle aguérir en informatique d'entreprise, appréciée pour mon aisance à travailler dans des millieux administratifs exigents où le rythme est soutenu."],
+  "about": ["<b>7 années d'expériences professionnelles </b>comme informaticien Réseau et Systèmes. Avec 4 sur les systèmes d’exploitation Windows Server 2012/2008, Linux Server(CentOS & Ubuntu)",
+            " former à la Certifcation CCNA et CCNP Switch & Router.Expérimenté dans la mise en place des solutions complexes en réseau, mon savoir faire nous a amené à experimenter un grand nombre de technologie réseau et Systeme",
+            " tel que la virtualisation et la gestion d'infrastructure réseau. \nPassionnée et cultivée, nous sommes toujours à la recheche d'une amélioration continue. Le contexte dans lequel nous évoluons et travaillons nous a également amené à étudier et déployer des solutions lié au système d'information:\n   • Installer, configurer et administrer l’ERP SAP (SAP Basis)\n   • Concevoir, developper et intégrer des solutions ERP (Odoo ERP: Python-XML-CSS-JS).\n   • Concevoir et developper des Tableaux de bord d'analyse avec Power BI desktop.\nProfessionnelle aguérir en informatique d'entreprise, appréciée pour mon aisance à travailler dans des millieux administratifs exigents où le rythme est soutenu."],
   "socials": [
     {
       "name": "kingsylver2009@gmail.com",
@@ -31,12 +30,12 @@
     {
       "name": "Github",
       "link": "https://github.com/kingsylver",
-      "icon": "fab fa-github"
+      "icon": "fa fa-github"
     },
     {
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/silvere-juste-tchatchou-tentchou-90251831/",
-      "icon": "fab fa-linkedin"
+      "icon": "fa fa-linkedin"
     }
   ],
   "formation":[

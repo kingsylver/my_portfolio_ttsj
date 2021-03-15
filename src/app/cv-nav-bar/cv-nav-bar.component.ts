@@ -1,4 +1,5 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-cv-nav-bar',
@@ -9,10 +10,11 @@ export class CvNavBarComponent implements OnInit {
 
   @Output() searched = new EventEmitter<string>();
 
+  @Input() isHide = false;
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   onSearch(searchTerm: string){
     this.searched.emit(searchTerm);

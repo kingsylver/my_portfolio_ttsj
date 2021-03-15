@@ -15,7 +15,9 @@
         {"nom":"JavaScript","star":3},
         {"nom":"Bootstrap","star":2},
         {"nom":"Reactjs","star":1},
-        {"nom":"CSS3","star":3}
+        {"nom":"CSS3","star":3},
+        {"nom":"SCRUM","star":2},
+        {"nom":"Git","star":4}
         ]
       },
       {
@@ -32,12 +34,10 @@
         "skill":[
           {"nom":"Apache","star":2},
           {"nom":"Nginx","star":2},
-          {"nom":"SCRUM","star":2},
           {"nom":"Docker","star":3},
           {"nom":"HYPER-V","star":2},
           {"nom":"Linux","star":2},
-          {"nom":"Window Server","star":2},
-          {"nom":"Git","star":4}
+          {"nom":"Window Server","star":2}
         ]
       },
       {

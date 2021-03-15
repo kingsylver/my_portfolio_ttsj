@@ -9,6 +9,8 @@ export class CvAppComponent implements OnInit {
 
   pdfSrc:any =  "../assets/media/base64/CV_Tchatchou_Silvere.pdf";
 
+  isHide=true;
+
   constructor() { }
 
   ngOnInit(): void {

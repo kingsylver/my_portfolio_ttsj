@@ -1,5 +1,5 @@
-<app-cv-nav-bar></app-cv-nav-bar>
-<div class="fixed-top" style="margin-top: 600px;">
+<app-cv-nav-bar [isHide]="isHide"></app-cv-nav-bar>
+<div class="fixed-bottom">
   <a class="btn btn-primary"
           [href]="pdfSrc" download="CV.pdf"
           role="button">Download CV</a>
